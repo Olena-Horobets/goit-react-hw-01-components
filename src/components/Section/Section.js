@@ -1,4 +1,4 @@
-import s from '../Section/Section.module.css';
+import s from 'components/Section/Section.module.css';
 import PropTypes from 'prop-types';
 
 function Section({ className, title, children }) {

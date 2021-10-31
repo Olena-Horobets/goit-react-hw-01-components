@@ -1,11 +1,11 @@
-import s from 'Section/Section.module.css';
+import s from 'components/Section/Section.module.css';
 
 import user from 'components/Profile/user.json';
 import statisticalData from 'components/Statistics/statistical-data.json';
 import friends from 'components/FriendList/friends.json';
 import transactions from 'components/TransactionHistory/transactions.json';
 
-import Section from 'Section/Section';
+import Section from 'components/Section/Section';
 import Profile from 'components/Profile/Profile';
 import StatisticsList from 'components/Statistics/StatisticsList';
 import FriendList from 'components/FriendList/FriendList';
