@@ -1,18 +1,17 @@
-import PaintigsList from './components/PaintingsList';
-import db from './db.json';
 import user from './components/Profile/user.json';
+import statisticalData from './components/Statistics/statistical-data.json';
 import Section from './components/Section';
 import Profile from './components/Profile/Profile';
-// console.log(user);
+import StatisticsList from './components/Statistics/StatisticsList';
+
 function App() {
   return (
     <div>
-      <Section title='The best offer'>
+      <Section title='My profile'>
         <Profile user={user} />
       </Section>
-      <Section>
-        <PaintigsList list={db} />
-      </Section>
+
+      <StatisticsList data={statisticalData} />
     </div>
   );
 }

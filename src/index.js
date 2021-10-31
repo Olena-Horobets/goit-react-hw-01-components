@@ -2,17 +2,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import 'modern-normalize/modern-normalize.css';
 
-// const elem1 = <span>Hello!</span>
-// const elem2 = <span>WORLD!</span>
-
-// const jsxElem = (
-//     <div>
-//         {elem1}
-//         {elem2}
-//         {elem1}
-//     </div>
-// )
-
 ReactDOM.render(<App />, document.querySelector('#root'));
 
 // import './index.css'
