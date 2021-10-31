@@ -1,0 +1,34 @@
+.section {
+  padding: 10px 30px;
+  text-align: center;
+  outline: 1px solid rgba(255, 255, 255, 0.089);
+  justify-content: center;
+}
+
+.profile {
+  composes: section;
+  width: 30vw;
+}
+
+.statistics {
+  composes: section;
+  width: 30vw;
+}
+
+.friendList {
+  composes: section;
+  width: 25vw;
+}
+
+.transactions {
+  composes: section;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  opacity: 0.5;
+  margin-bottom: 12px;
+}

@@ -1,11 +1,17 @@
+import s from 'components/FriendList/FriendList.module.css';
 import PropTypes from 'prop-types';
 
 function Friend({ name, avatar, isOnline }) {
   return (
     <>
-      <span className='status'></span>
-      <img className='avatar' src={avatar} alt='' width='48' />
-      <p className='name'>{name}</p>
+      <span
+        className={s.status}
+        style={
+          isOnline ? { backgroundColor: 'green' } : { backgroundColor: 'red' }
+        }
+      ></span>
+      <img className={s.avatar} src={avatar} alt='' width='48' />
+      <p className={s.name}>{name}</p>
     </>
   );
 }
