@@ -7,14 +7,14 @@
 .tableHead {
   background-color: #2eafdf;
   border: 3px solid rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: #2e2e2e;
-  padding: 9px;
+  padding: 6px;
 }
 
 .tableData {
   border: 2px solid rgba(255, 255, 255, 0.2);
-  padding: 7px 12px;
-  font-size: 16px;
+  padding: 6px 12px;
+  font-size: 15px;
 }
